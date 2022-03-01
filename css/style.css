@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+h1   {color: black;
+      text-align: center;}
+h2   {color: black;}
+#nav {
+	background:#ece9d6 url(../images/noise.png);
+	height:150px;
+	width:1199px;
+	
+}
+#nav ul {
+	height:50px;
+	width:900px;
+	float:left;
+}
+#nav ul li {
+	list-style-type:none;
+	width:150px;
+	float:right;
+	text-align:center;
+}
+#nav ul li a {
+	text-decoration:none;
+	color:#000000;
+	line-height:50px;
+	display:block;
+}
+body {
+    font-family: mensch, Arial, Helvetica, sans-serif;
+    color: #3B3B3B;
+	background:#f3efee;
+        margin:0px;
+	padding-right:60px;
+	padding-left: 60px;
+	
+}
+#container {
+	width: 1150px; 
+	margin: auto; 
+	padding-left:20px;
+    	padding-right:20px;
+	overflow: hidden;
+}
+#container p{
+	border: 10px dotted #0000FF; 
+	padding: 20px; 
+}
+
+#location {
+	float: left; 
+	width: 400px; 
+	margin: 20px; } 
+#contact { 
+	float: right; 
+	width: 400px; 
+	margin: 20px; }
+	
+
+#footer {
+	clear:both;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color: #3B3B3B;
+	background:#ece9d6 url(../images/noise.png);
+	text-align:center;
+	width:1199px;
+}
+
